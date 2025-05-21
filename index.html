@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محرر قوالب الفيديو المتحركة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .description {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .feature {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .feature h3 {
+            color: #2980b9;
+            margin-top: 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>محرر قوالب الفيديو المتحركة</h1>
+        <p>أداة متقدمة لإنشاء وتحرير قوالب الفيديو المتحركة بواجهة سهلة الاستخدام</p>
+    </header>
+
+    <div class="description">
+        <h2>نبذة عن المشروع</h2>
+        <p>محرر قوالب الفيديو المتحركة هو تطبيق ويب متقدم مبني باستخدام React وTypeScript، يتيح للمستخدمين إنشاء وتحرير قوالب فيديو متحركة بسهولة. يدعم التطبيق اللغة العربية واتجاه RTL بشكل كامل، ويوفر واجهة سهلة الاستخدام مع العديد من الميزات المتقدمة.</p>
+    </div>
+
+    <h2>الميزات الرئيسية</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>تحرير الشرائح</h3>
+            <p>إمكانية إضافة وتحرير وترتيب الشرائح بسهولة، مع دعم أنواع مختلفة من المحتوى.</p>
+        </div>
+        <div class="feature">
+            <h3>تخصيص المظهر</h3>
+            <p>تعديل الألوان والخطوط والأنماط لتناسب احتياجاتك وهويتك البصرية.</p>
+        </div>
+        <div class="feature">
+            <h3>تصدير الفيديو</h3>
+            <p>إمكانية تصدير المشروع كفيديو متحرك بجودة عالية وبتنسيقات مختلفة.</p>
+        </div>
+        <div class="feature">
+            <h3>دعم اللغة العربية</h3>
+            <p>واجهة كاملة باللغة العربية مع دعم الاتجاه من اليمين إلى اليسار (RTL).</p>
+        </div>
+        <div class="feature">
+            <h3>حفظ وتحميل المشاريع</h3>
+            <p>إمكانية حفظ المشاريع واستعادتها لاحقاً، مع دعم التخزين المحلي.</p>
+        </div>
+        <div class="feature">
+            <h3>واجهة سهلة الاستخدام</h3>
+            <p>تصميم بديهي يسهل على المستخدمين من جميع المستويات استخدام التطبيق.</p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <a href="https://github.com/food-delivery-sy/reels-editor-project" class="button">زيارة المستودع على GitHub</a>
+    </div>
+
+    <h2>التقنيات المستخدمة</h2>
+    <ul>
+        <li>React.js و TypeScript</li>
+        <li>Vite كأداة بناء</li>
+        <li>Tailwind CSS للتنسيق</li>
+        <li>Shadcn UI لمكونات واجهة المستخدم</li>
+        <li>FFmpeg لمعالجة الفيديو</li>
+    </ul>
+
+    <h2>كيفية الاستخدام</h2>
+    <p>لاستخدام المشروع محلياً، يمكنك اتباع الخطوات التالية:</p>
+    <ol>
+        <li>استنساخ المستودع: <code>git clone https://github.com/food-delivery-sy/reels-editor-project.git</code></li>
+        <li>تثبيت التبعيات: <code>npm install</code></li>
+        <li>تشغيل المشروع: <code>npm run dev</code></li>
+    </ol>
+
+    <footer>
+        <p>تم تطوير هذا المشروع بواسطة فريق محرر قوالب الفيديو المتحركة &copy; 2025</p>
+    </footer>
+</body>
+</html>
